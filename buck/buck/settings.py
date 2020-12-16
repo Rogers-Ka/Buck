@@ -27,7 +27,7 @@ SECRET_KEY = 'eiopvd+xv-6w2spgc^ydsnh#w(8=gg@p1f_l)m=*mpsok5#-7$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'buckshops.herokuapp.com/']
 
 templ = os.path.join(BASE_DIR, 'Template')
 
